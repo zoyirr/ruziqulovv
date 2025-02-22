@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(2, 48, 71, 0.7);
+}
+
+.a{
+    color: rgba(2, 48, 71, 1);
+}
+
+.hero{
+    background-image: url(./img/01.png);
+    height: 798px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-top: 250px;
+}
+
+h1{
+    font-family: Stem;
+font-weight: 700;
+font-size: 64px;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+color: aliceblue;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio input {
+    display: none;
+}
+
+.custom-radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+.radio input:checked + .custom-radio {
+    background-color: orange;
+    border: 2px solid orange;
+}
+
+.radio input:checked + .custom-radio::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.p{
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+text-align: center;
+color: aliceblue;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+
+.btn-ota{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pp{
+    font-family: Stem;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: aliceblue;
+}
+
+.btn{
+    padding: 12px 30px;
+    border: none;
+    background-color: aliceblue;
+    color: rgba(251, 133, 0, 1);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: rgba(251, 133, 0, 1);
+    color: aliceblue;
+    transition: 0.5s;
+}
+.v{
+    background:none ;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 50px;
+    height: px;
+}
+.vv{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: aliceblue;
+    height: px;
+}
+
+h2{
+    font-family: Stem;
+font-weight: 500;
+font-size: 28px;
+line-height: 36.4px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(33, 158, 188, 1);
+padding-top: 100px;
+}
+
+h3{
+    font-family: Stem;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.ppp{
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(0, 0, 0, 0.7);
+padding-top: 40px;
+}
+
+.foiz{
+    background-color: rgba(255, 255, 255, 1);
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    border: none;
+    color: darkorange;
+}
+.card{
+    text-align: center;
+}
+.pppp{
+    font-family: Stem;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+h4{
+    font-family: Stem;
+font-weight: 500;
+font-size: 28px;
+line-height: 36.4px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(2, 48, 71, 1);
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.hero3{
+    background-image: url(./img/02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 584px;
+    padding-top: 100px;
+}
+.h7{
+    font-family: Gilroy;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(33, 158, 188, 1);
+}
+
+.h8{
+    font-family: Gilroy;
+font-weight: 700;
+font-size: 48px;
+line-height: 52px;
+letter-spacing: 0%;
+text-align: center;
+color:aliceblue;
+padding-top: 20px;
+}
+
+.p2{
+    font-family: Gilroy;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(255, 255, 255, 0.8);
+padding-top: 50px;
+}
+
+.button{
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.1);
+    width: 64px;
+    height: 64px;
+    border: none;
+    font-size: 25px;
+    margin-left: -30px;
+    color: coral;
+    border-radius: 50%;
+}
+.yozuv p{
+    font-family: Stem;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: rgba(2, 48, 71, 0.7);
+}
+
+.h9{
+    font-family: Stem;
+font-weight: 700;
+font-size: 24px;
+line-height: 28.8px;
+letter-spacing: 0%;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.hero4{
+    background-image: url(./img/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+}
+
+.rasm-card{
+    width: 350px;
+    height: 380px;
+    border-radius: 16px;
+    background-image: url(./img/04.jpg);
+    text-align: center;
+}
+
+.h10{
+    font-family: Stem;
+font-weight: 500;
+font-size: 28px;
+line-height: 36.4px;
+letter-spacing: 0%;
+text-align: center;
+color: aliceblue;
+padding-top: 280px;
+}
+
+.rasm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.hero6{
+    height: 618px;
+    background-image: url(./img/05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+}
+
+.rasmm{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.rasmm-card{
+    font-family: Stem;
+font-weight: 500;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: 0%;
+text-align: center;
+width: 350px;
+height: 471px;
+border-radius: 16px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding-top: 50px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.rasmm-card p{
+    font-family: Stem;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hero8{
+    height: 900px;
+    background-image: url(./img/01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+input{
+    width: 540px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 90px;
+    padding-top: 50px;
+}
+
+footer{
+    height: 340px;
+    background: rgba(2, 48, 71, 1);
+}
+
+nav{
+}
+footer li a{
+    color: aliceblue;
+}
+
+footer p{
+    font-family: Stem;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 0.6);
+display: flex;
+justify-content: center;
+padding-top: 30px;
+}
+
+.footer{
+    width: 56px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.foter{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonn{
+    display: flex;
+    justify-content: center;
+}
+.radioo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 250px 20px 0 ;
+}
